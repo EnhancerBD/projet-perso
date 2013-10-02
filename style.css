@@ -297,10 +297,6 @@ font-weight: 600;
 
 }
 
-#progress_cmpt{
-  margin-left: 20px;
-  width:650px;
-  }
 
 #tab_comp{
 
@@ -359,12 +355,6 @@ background-image: -webkit-gradient(linear, left top, right bottom, from(#F4F5CA)
 
 
 
-.div_cmpt{
-  display:inline-block;
-
-}
-
-
 
 .icone{
 position:relative;
@@ -377,6 +367,7 @@ left:0;
 
 
 .label {
+  float:left;
   display: block;
   margin-bottom:22px;
   padding: .2em .6em .3em;
@@ -393,6 +384,13 @@ left:0;
 .label-success {
   background-color: #5cb85c;
 }
+
+.marg_progress{
+
+margin-left:70px;
+}
+
+
 
 .progress {
 
